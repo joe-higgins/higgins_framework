@@ -12,6 +12,13 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.2em;
 
 }
+
+a {
+  text-decoration: none;
+  transition: color .7s ease;
+  -webkit-transition: color .7s ease;
+}
+
 /* from w3.css Are em's or rem's better?*/
 p {
   font-size: 1.4em;
