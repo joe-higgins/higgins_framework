@@ -1,0 +1,104 @@
+@import url("meyer_reset.css");
+@import url("normalize_extract.css");
+@import url("layout.css");
+@import url("typo.css");
+
+/* ===== NAME AND DESCRIPTION OF PROJECT HERE  ===== */
+/*
+
+
+*/
+
+/* ================================================= */
+/* add styles specific to a particular project below */
+/* ================================================= */
+
+/* VARIABLES */
+:root {
+  --textcolor: black;
+  --body-bgcolor: #b7bbba;
+  --wrap-bgcolor: rgba(63, 127, 191, 0.35);
+  --grid-bgcolor: rgba(63, 127, 191, 0.2);
+  --text-hover-color: rgba(255, 204, 102, .8);
+  --active-bgcolor: rgba(75, 73, 123, 1);
+  --link-color: #4b497b;
+  --nav-bgcolor: rgba(192,192,192,0.6);
+  --nav-border: grey;
+
+}
+
+body {
+  color: var(--textcolor);
+  background-color: var(--body-bgcolor);
+}
+a {
+  color: var(--link-color);
+}
+
+a:hover {
+  color: var(--text-hover-color);
+}
+
+a:visited {
+
+}
+a:active {
+  /* background-color: var(--active-bgcolor); */
+}
+.header {
+  background: center / cover no-repeat url("../images/header.png");
+}
+/* ========================================================== */
+/* ============== NAV STYLES ======================== */
+/* ========================================================== */
+/* General */
+nav  {
+  background-color: var(--nav-bgcolor);
+
+}
+nav li a:hover {
+  background-color: var(--active-bgcolor);
+  transition: .7s;
+}
+
+
+/* Horiz */
+.nav-horiz {
+
+}
+.nav-horiz ul {
+  width: 100%;
+}
+.nav-horiz ul li {
+  width: 25%;
+}
+.nav-horiz ul li a{
+  padding: 10px 10px;
+}
+.nav-horiz ul ul {
+  width: 50%;
+}
+.nav-horiz ul ul ul li{
+  width: 200%;
+}
+
+.nav-horiz li a{
+  padding: .2em 1em;
+}
+.nav-horiz li a:hover {
+}
+
+/* ==================================== */
+/* =========== GRID STYLES ============ */
+/* ==================================== */
+
+.full-page-wrap {
+  background-color: var(--wrap-bgcolor);
+  margin: auto;
+  width: 90%;
+  max-width: 1400px;
+}
+
+.grid-wrap  {
+  background-color: var(--grid-bgcolor);
+}
