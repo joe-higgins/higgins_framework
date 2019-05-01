@@ -46,7 +46,7 @@ a:active {
   /* background-color: var(--active-bgcolor); */
 }
 .header {
-  background: center / cover no-repeat url("../images/header.png");
+  background: center / cover no-repeat url("../images/poas.jpg");
 }
 /* ========================================================== */
 /* ============== NAV STYLES ======================== */
@@ -61,42 +61,13 @@ nav li a:hover {
   transition: .7s;
 }
 
-
-/* Horiz */
-.nav-horiz {
-
-}
-.nav-horiz ul {
-  width: 100%;
-}
-.nav-horiz ul li {
-  width: 25%;
-}
-.nav-horiz ul li a{
-  padding: 10px 10px;
-}
-.nav-horiz ul ul {
-  width: 50%;
-}
-.nav-horiz ul ul ul li{
-  width: 200%;
-}
-
-.nav-horiz li a{
-  padding: .2em 1em;
-}
-.nav-horiz li a:hover {
-}
-
 /* ==================================== */
 /* =========== GRID STYLES ============ */
 /* ==================================== */
 
 .full-page-wrap {
   background-color: var(--wrap-bgcolor);
-  margin: auto;
-  width: 90%;
-  max-width: 1400px;
+
 }
 
 .grid-wrap  {
